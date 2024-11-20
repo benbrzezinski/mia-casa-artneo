@@ -1,5 +1,11 @@
-// variables
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
 
-@import "../node_modules/uikit/src/scss/variables-theme.scss";
-@import "../node_modules/uikit/src/scss/mixins-theme.scss";
-@import "../node_modules/uikit/src/scss/uikit-theme.scss";
+$global-font-family: "Poppins", serif;
+$global-color: #666;
+$color-primary: #1b1c21;
+$color-secondary: #fff;
+
+@import "/node_modules/normalize-scss/sass/normalize/import-now";
+@import "/node_modules/uikit/src/scss/variables-theme.scss";
+@import "/node_modules/uikit/src/scss/mixins-theme.scss";
+@import "/node_modules/uikit/src/scss/uikit-theme.scss";
