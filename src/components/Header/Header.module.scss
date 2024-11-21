@@ -1,0 +1,13 @@
+@use "/src/main.scss" as *;
+
+.list {
+  color: $color-secondary;
+  gap: 30px;
+  padding: 0;
+  margin: 0;
+}
+
+.link {
+  font-weight: $font-weight-bold;
+  font-size: $font-size-large;
+}

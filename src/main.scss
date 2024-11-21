@@ -2,10 +2,31 @@
 
 $global-font-family: "Poppins", serif;
 $global-color: #666;
+$font-weight-semi: 600;
+$font-weight-bold: 700;
 $color-primary: #1b1c21;
 $color-secondary: #fff;
+$font-size-large: 18px;
 
 @import "/node_modules/normalize-scss/sass/normalize/import-now";
 @import "/node_modules/uikit/src/scss/variables-theme.scss";
 @import "/node_modules/uikit/src/scss/mixins-theme.scss";
 @import "/node_modules/uikit/src/scss/uikit-theme.scss";
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+img,
+picture,
+svg,
+video {
+  display: block;
+  max-width: 100%;
+}
+
+ul,
+ol {
+  list-style-type: none;
+}
