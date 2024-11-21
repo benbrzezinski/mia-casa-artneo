@@ -1,12 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@100..900&display=swap");
 
-$global-font-family: "Poppins", serif;
-$global-color: #666;
-$font-weight-semi: 600;
-$font-weight-bold: 700;
-$color-primary: #1b1c21;
-$color-secondary: #fff;
-$font-size-large: 18px;
+$global-font-family: "Work Sans", sans-serif;
 
 @import "/node_modules/normalize-scss/sass/normalize/import-now";
 @import "/node_modules/uikit/src/scss/variables-theme.scss";

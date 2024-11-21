@@ -2,7 +2,7 @@ import scss from "./Header.module.scss";
 
 export default function Header() {
   return (
-    <header className="uk-background-secondary uk-flex uk-flex-between uk-flex-middle uk-padding">
+    <header className="uk-flex uk-flex-between uk-flex-middle">
       <a href="#">
         <img
           src="/assets/images/logo-white-215.png"

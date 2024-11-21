@@ -1,0 +1,20 @@
+@keyframes bg-img-slider {
+  10% {
+    background-image: url("/assets/images/spring.jpg");
+  }
+
+  25%,
+  35% {
+    background-image: url("/assets/images/summer.jpg");
+  }
+
+  50%,
+  60% {
+    background-image: url("/assets/images/autumn.jpg");
+  }
+
+  75%,
+  85% {
+    background-image: url("/assets/images/winter.jpg");
+  }
+}

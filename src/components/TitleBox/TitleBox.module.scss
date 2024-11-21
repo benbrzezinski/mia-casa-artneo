@@ -1,0 +1,23 @@
+@use "/src/scss/index.scss" as *;
+
+.title {
+  max-width: 780px;
+  font-weight: $font-weight-semi;
+  font-size: 60px;
+  line-height: $line-height-small;
+  color: $color-secondary;
+  margin-bottom: 26px;
+}
+
+.text {
+  max-width: 240px;
+  font-weight: $font-weight-bold;
+  font-size: 23px;
+  line-height: $line-height-small;
+  color: $color-secondary;
+  margin-bottom: 87px;
+}
+
+.btn {
+  @extend %btn-primary;
+}

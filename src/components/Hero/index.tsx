@@ -1,9 +1,16 @@
 import Header from "../Header";
+import TitleBox from "../TitleBox";
+import scss from "./Hero.module.scss";
 
 export default function Hero() {
   return (
-    <div>
+    <div
+      className={`uk-background-cover ${scss.wrapper}`}
+      data-src="/assets/images/spring.jpg"
+      data-uk-img="loading: eager"
+    >
       <Header />
+      <TitleBox />
     </div>
   );
 }
