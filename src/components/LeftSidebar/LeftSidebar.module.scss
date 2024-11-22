@@ -1,0 +1,46 @@
+@use "/src/scss/index.scss" as *;
+
+.box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 80px;
+  height: 100%;
+  border-right: 1px solid rgba(255, 255, 255, 0.5);
+  padding-top: 70px;
+  padding-bottom: 40px;
+}
+
+.text {
+  font-weight: $font-weight-bold;
+  font-size: 10px;
+  line-height: 2.8;
+  color: $color-secondary;
+  writing-mode: vertical-rl;
+  transform: rotate(-180deg);
+  margin-top: 25px;
+}
+
+.green,
+.white,
+.red {
+  width: 7px;
+  height: 19px;
+}
+
+.green,
+.white {
+  margin-top: 3px;
+}
+
+.red {
+  background-color: #eb1d27;
+}
+
+.white {
+  background-color: #fbfbfb;
+}
+
+.green {
+  background-color: #009544;
+}
