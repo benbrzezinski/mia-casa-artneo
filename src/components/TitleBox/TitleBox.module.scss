@@ -1,5 +1,9 @@
 @use "/src/scss/index.scss" as *;
 
+section.section {
+  padding-left: 90px;
+}
+
 .title {
   max-width: 780px;
   font-weight: $font-weight-semi;

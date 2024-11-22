@@ -1,7 +1,6 @@
 @use "/src/scss/variables.scss" as *;
 
 %btn-primary {
-  width: 240px;
   font-weight: $font-weight-bold;
   font-size: 15px;
   line-height: $line-height-large;
@@ -11,5 +10,6 @@
   border: 1px solid $color-secondary;
   border-radius: $radius-small;
   padding-block: 18px;
+  padding-inline: 60px;
   cursor: pointer;
 }

@@ -44,3 +44,11 @@
 .green {
   background-color: #009544;
 }
+
+.list {
+  gap: 15px;
+
+  & > li:last-child {
+    margin-top: 40px;
+  }
+}
