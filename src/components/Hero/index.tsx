@@ -1,5 +1,6 @@
 import Header from "../Header";
 import LeftSidebar from "../LeftSidebar";
+import RightSidebar from "../RightSidebar";
 import TitleBox from "../TitleBox";
 import scss from "./Hero.module.scss";
 
@@ -13,6 +14,7 @@ export default function Hero() {
       <Header />
       <TitleBox />
       <LeftSidebar />
+      <RightSidebar />
     </div>
   );
 }

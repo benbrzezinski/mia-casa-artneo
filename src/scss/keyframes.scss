@@ -18,3 +18,63 @@
     background-image: url("/assets/images/winter.jpg");
   }
 }
+
+@keyframes border-fading-spring {
+  0%,
+  10%,
+  100% {
+    border-left-color: transparent;
+    border-bottom-color: rgba(255, 255, 255, 0.5);
+  }
+
+  25%,
+  85% {
+    border-left-color: rgba(255, 255, 255, 0.5);
+    border-bottom-color: transparent;
+  }
+}
+
+@keyframes border-fading-summer {
+  10%,
+  50% {
+    border-top-color: transparent;
+    border-left-color: rgba(255, 255, 255, 0.5);
+  }
+
+  25%,
+  35% {
+    border-top-color: rgba(255, 255, 255, 0.5);
+    border-left-color: transparent;
+  }
+}
+
+@keyframes border-fading-autumn {
+  35%,
+  75% {
+    border-top-color: transparent;
+    border-left-color: rgba(255, 255, 255, 0.5);
+    border-bottom-color: transparent;
+  }
+
+  50%,
+  60% {
+    border-top-color: rgba(255, 255, 255, 0.5);
+    border-left-color: transparent;
+    border-bottom-color: rgba(255, 255, 255, 0.5);
+  }
+}
+
+@keyframes border-fading-winter {
+  60% {
+    border-top-color: transparent;
+    border-left-color: rgba(255, 255, 255, 0.5);
+    border-bottom-color: transparent;
+  }
+
+  75%,
+  85% {
+    border-top-color: rgba(255, 255, 255, 0.5);
+    border-left-color: transparent;
+    border-bottom-color: rgba(255, 255, 255, 0.5);
+  }
+}
