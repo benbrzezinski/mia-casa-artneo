@@ -1,7 +1,11 @@
 @use "/src/scss/index.scss" as *;
 
 section.section {
-  padding-left: 90px;
+  padding-left: 92px;
+
+  @include min-width(1750px) {
+    padding-left: 135px;
+  }
 }
 
 .title {

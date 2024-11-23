@@ -1,10 +1,12 @@
 @use "/src/scss/index.scss" as *;
 
+header.header {
+  padding-right: 50px;
+}
+
 .list {
   color: $color-secondary;
   gap: 30px;
-  padding: 0;
-  margin: 0;
 }
 
 .link {
