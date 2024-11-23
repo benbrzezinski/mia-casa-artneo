@@ -2,13 +2,15 @@
 
 $global-font-family: "Work Sans", sans-serif;
 
-@import "/node_modules/normalize-scss/sass/normalize/import-now";
+@import "/node_modules/modern-normalize/modern-normalize.css";
 @import "/node_modules/uikit/src/scss/variables-theme.scss";
 @import "/node_modules/uikit/src/scss/mixins-theme.scss";
 @import "/node_modules/uikit/src/scss/uikit-theme.scss";
 
-* {
-  box-sizing: border-box;
+*,
+ul,
+ol,
+p {
   padding: 0;
   margin: 0;
 }
@@ -24,11 +26,4 @@ video {
 ul,
 ol {
   list-style-type: none;
-  padding: 0;
-  margin: 0;
-}
-
-p {
-  padding: 0;
-  margin: 0;
 }
