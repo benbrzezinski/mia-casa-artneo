@@ -1,6 +1,7 @@
 @use "/src/scss/index.scss" as *;
 
 .wrapper {
+  min-height: 100dvh;
   position: relative;
   background-color: $bg-color-accent;
   box-shadow: inset 0 0 0 50vw rgba(0, 0, 0, 0.3);

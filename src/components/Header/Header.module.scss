@@ -1,7 +1,9 @@
 @use "/src/scss/index.scss" as *;
 
 header.header {
-  padding-right: 50px;
+  width: 100%;
+  box-sizing: border-box;
+  padding-left: 30px;
 }
 
 .list {

@@ -1,11 +1,9 @@
 @use "/src/scss/index.scss" as *;
 
 section.section {
-  padding-left: 92px;
-
-  @include min-width(1750px) {
-    padding-left: 135px;
-  }
+  width: 100%;
+  box-sizing: border-box;
+  padding-left: 83px;
 }
 
 .title {

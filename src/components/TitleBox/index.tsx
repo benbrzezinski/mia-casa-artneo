@@ -3,7 +3,7 @@ import scss from "./TitleBox.module.scss";
 export default function TitleBox() {
   return (
     <section
-      className={`uk-section uk-section-large uk-container uk-container-large ${scss.section}`}
+      className={`uk-section uk-container uk-container-large uk-flex uk-flex-column uk-flex-top uk-flex-center uk-flex-1 ${scss.section}`}
     >
       <h1 className={scss.title}>
         Twoje marzenie
