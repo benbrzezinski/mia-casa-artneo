@@ -2,7 +2,7 @@ import scss from "./RightSidebar.module.scss";
 
 export default function RightSidebar() {
   return (
-    <div className={scss.box}>
+    <div className={`uk-position-absolute ${scss.box}`}>
       <ul className={scss.list}>
         <li className={`${scss.item} ${scss.spring}`}>
           <p className={scss.text}>WIOSNA</p>

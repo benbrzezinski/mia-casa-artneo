@@ -4,7 +4,7 @@ import scss from "./LeftSidebar.module.scss";
 export default function LeftSidebar() {
   return (
     <div
-      className={`uk-flex uk-flex-column uk-flex-between uk-flex-middle ${scss.box}`}
+      className={`uk-flex uk-flex-column uk-flex-between uk-flex-middle uk-position-absolute ${scss.box}`}
     >
       <div className="uk-flex uk-flex-column">
         <ItalianFlag direction="column" childrenWidth={7} />

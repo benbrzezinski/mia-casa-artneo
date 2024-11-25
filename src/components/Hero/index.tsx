@@ -7,7 +7,7 @@ import scss from "./Hero.module.scss";
 export default function Hero() {
   return (
     <div
-      className={`uk-flex uk-flex-column uk-background-cover ${scss.wrapper}`}
+      className={`uk-flex uk-flex-column uk-background-cover uk-position-relative ${scss.wrapper}`}
       data-src="/assets/images/spring.jpg"
       data-uk-img="loading: eager"
     >
