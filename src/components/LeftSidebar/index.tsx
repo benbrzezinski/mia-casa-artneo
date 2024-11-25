@@ -1,15 +1,16 @@
+import ItalianFlag from "../ItalianFlag";
 import scss from "./LeftSidebar.module.scss";
 
 export default function LeftSidebar() {
   return (
-    <div className={`uk-flex uk-flex-column uk-flex-between ${scss.box}`}>
-      <div className="uk-flex uk-flex-column uk-flex-middle">
-        <div className={scss.red}></div>
-        <div className={scss.white}></div>
-        <div className={scss.green}></div>
+    <div
+      className={`uk-flex uk-flex-column uk-flex-between uk-flex-middle ${scss.box}`}
+    >
+      <div className="uk-flex uk-flex-column">
+        <ItalianFlag direction="column" childrenWidth={7} />
         <p className={scss.text}>WŁOSKA AGENCJA NIERUCHOMOŚCI</p>
       </div>
-      <ul className={`uk-flex uk-flex-column uk-flex-middle ${scss.list}`}>
+      <ul className={`uk-flex uk-flex-column ${scss.list}`}>
         <li>
           <a href="#">
             <img src="/assets/svgs/instagram.svg" alt="instagram" />
