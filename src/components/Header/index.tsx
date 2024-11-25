@@ -8,7 +8,7 @@ export default function Header() {
       <a href="#">
         <img
           src="/assets/images/logo-white-215.png"
-          alt="logo"
+          alt="białe logo 'La Mia Casa'"
           sizes="215px"
           srcSet="/assets/images/logo-white-215.png 215w,
                   /assets/images/logo-white-430.png 430w,
