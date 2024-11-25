@@ -1,11 +1,12 @@
 import Hero from "../components/Hero";
+import Introduction from "../components/Introduction";
 
 export default function Home() {
   return (
     <>
       <Hero />
       <main>
-        <h2>hello</h2>
+        <Introduction />
       </main>
     </>
   );

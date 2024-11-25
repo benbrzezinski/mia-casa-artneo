@@ -1,0 +1,15 @@
+@use "/src/scss/index.scss" as *;
+
+.box {
+  margin-bottom: 160px;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 8%;
+    left: -8%;
+    width: 101%;
+    height: 89%;
+    border: 1px solid $color-muted-brighter;
+  }
+}

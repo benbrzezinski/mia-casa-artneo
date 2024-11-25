@@ -1,0 +1,23 @@
+@use "/src/scss/index.scss" as *;
+
+.section {
+  max-width: 510px;
+  margin-bottom: 350px;
+}
+
+.title {
+  font-size: $font-size-extra-large;
+  font-weight: $font-weight-semi;
+  line-height: $line-height-medium;
+  margin-bottom: 35px;
+}
+
+.text {
+  font-size: $font-size-medium;
+  color: $color-muted;
+  margin-bottom: 65px;
+}
+
+.btn {
+  @extend %btn-accent;
+}

@@ -9,7 +9,15 @@
   background-color: transparent;
   border: 1px solid $color-secondary;
   border-radius: $radius-small;
+  padding-block: 17px;
+  padding-inline: 59px;
+  cursor: pointer;
+}
+
+%btn-accent {
+  @extend %btn-primary;
+  background-color: $color-accent-darker;
+  border: none;
   padding-block: 18px;
   padding-inline: 60px;
-  cursor: pointer;
 }

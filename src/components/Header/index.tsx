@@ -12,8 +12,7 @@ export default function Header() {
           sizes="215px"
           srcSet="/assets/images/logo-white-215.png 215w,
                   /assets/images/logo-white-430.png 430w,
-                  /assets/images/logo-white-645.png 645w,
-                  /assets/images/logo-white-860.png 860w"
+                  /assets/images/logo-white-645.png 645w"
         />
       </a>
       <nav>
