@@ -1,7 +1,7 @@
-import Header from "../Header";
-import LeftSidebar from "../LeftSidebar";
-import RightSidebar from "../RightSidebar";
-import TitleBox from "../TitleBox";
+import Header from "../../components/Header";
+import LeftSidebar from "../../components/LeftSidebar";
+import RightSidebar from "../../components/RightSidebar";
+import TitleBox from "../../components/TitleBox";
 import scss from "./Hero.module.scss";
 
 export default function Hero() {

@@ -1,7 +1,7 @@
-import AboutAgency from "../AboutAgency";
-import FeaturedImage from "../FeaturedImage";
-import ImageShowcase from "../ImageShowcase";
-import ServicesOverview from "../ServicesOverview";
+import AboutAgency from "../../components/AboutAgency";
+import FeaturedImage from "../../components/FeaturedImage";
+import ImageShowcase from "../../components/ImageShowcase";
+import ServicesOverview from "../../components/ServicesOverview";
 import scss from "./Introduction.module.scss";
 
 export default function Introduction() {
