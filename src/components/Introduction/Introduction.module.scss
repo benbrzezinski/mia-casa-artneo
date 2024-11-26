@@ -1,5 +1,20 @@
-.wrapper {
+@use "/src/scss/index.scss" as *;
+
+div.wrapper {
   gap: 150px;
+  padding-inline: 200px;
+
+  @include max-width(1400px) {
+    gap: 75px;
+  }
+
+  @include max-width(1300px) {
+    padding-inline: 174px;
+  }
+
+  @include max-width(1200px) {
+    padding-inline: 156px;
+  }
 }
 
 .box {

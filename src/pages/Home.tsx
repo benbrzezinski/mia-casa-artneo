@@ -6,6 +6,16 @@ export default function Home() {
     <>
       <Hero />
       <main>
+        <div
+          className="uk-position-absolute"
+          style={{
+            top: 0,
+            left: 160,
+            width: 1,
+            height: 734,
+            backgroundColor: "#cdcdcd",
+          }}
+        ></div>
         <Introduction />
       </main>
     </>
