@@ -2,14 +2,23 @@
 
 .box {
   margin-bottom: 160px;
+}
 
-  &::before {
-    content: "";
-    position: absolute;
-    top: 8%;
-    left: -8%;
-    width: 101%;
-    height: 89%;
-    border: 1px solid $color-muted-brighter;
-  }
+.frame {
+  top: 8%;
+  left: -8%;
+  width: 101%;
+  height: 89%;
+  border: 1px solid $color-muted-brighter;
+}
+
+.snailsBox {
+  width: 100%;
+  height: 100%;
+}
+
+.snailsImg {
+  top: 0;
+  right: 0;
+  transform: translate(58.6%, -52.3%);
 }

@@ -1,8 +1,24 @@
+import ItalianFlag from "../ItalianFlag";
 import scss from "./FeaturedImage.module.scss";
 
 export default function FeaturedImage() {
   return (
     <div className={`uk-position-relative ${scss.box}`}>
+      <div className={`uk-position-absolute ${scss.frame}`}>
+        <div className={`uk-position-relative ${scss.snailsBox}`}>
+          <img
+            loading="lazy"
+            src="/assets/svgs/snails.svg"
+            alt="dekoracyjny element w kształcie spirali/ślimaka"
+            className={`uk-position-absolute ${scss.snailsImg}`}
+          />
+        </div>
+      </div>
+      <ItalianFlag
+        direction="row-reverse"
+        childrenSize={{ width: 19, height: 11 }}
+        style={{ position: "absolute", top: "8%", left: "13%" }}
+      />
       <img
         loading="lazy"
         src="/assets/images/lake-623.jpg"

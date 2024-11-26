@@ -7,7 +7,10 @@ export default function LeftSidebar() {
       className={`uk-flex uk-flex-column uk-flex-between uk-flex-middle uk-position-absolute ${scss.box}`}
     >
       <div className="uk-flex uk-flex-column">
-        <ItalianFlag direction="column" childrenWidth={7} />
+        <ItalianFlag
+          direction="column"
+          childrenSize={{ width: 7, height: 19 }}
+        />
         <p className={scss.text}>WŁOSKA AGENCJA NIERUCHOMOŚCI</p>
       </div>
       <ul className={`uk-flex uk-flex-column ${scss.list}`}>

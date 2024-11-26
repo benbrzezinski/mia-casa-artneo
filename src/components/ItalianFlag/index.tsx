@@ -2,13 +2,16 @@ import scss from "./ItalianFlag.module.scss";
 
 interface ItalianFlagProps {
   direction: "row" | "row-reverse" | "column" | "column-reverse";
-  childrenWidth: number;
+  childrenSize: {
+    width: number;
+    height: number;
+  };
   style?: React.CSSProperties;
 }
 
 export default function ItalianFlag({
   direction,
-  childrenWidth,
+  childrenSize,
   style,
 }: ItalianFlagProps) {
   return (
@@ -16,9 +19,18 @@ export default function ItalianFlag({
       style={style}
       className={`uk-flex uk-flex-${direction} uk-flex-middle ${scss.box}`}
     >
-      <span style={{ width: childrenWidth }} className={scss.red}></span>
-      <span style={{ width: childrenWidth }} className={scss.white}></span>
-      <span style={{ width: childrenWidth }} className={scss.green}></span>
+      <span
+        style={{ width: childrenSize.width, height: childrenSize.height }}
+        className={scss.red}
+      ></span>
+      <span
+        style={{ width: childrenSize.width, height: childrenSize.height }}
+        className={scss.white}
+      ></span>
+      <span
+        style={{ width: childrenSize.width, height: childrenSize.height }}
+        className={scss.green}
+      ></span>
     </div>
   );
 }
