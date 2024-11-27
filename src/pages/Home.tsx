@@ -1,3 +1,4 @@
+import CooperationModels from "../containers/CooperationModels";
 import Hero from "../containers/Hero";
 import Introduction from "../containers/Introduction";
 
@@ -17,6 +18,7 @@ export default function Home() {
           }}
         ></div>
         <Introduction />
+        <CooperationModels />
       </main>
     </>
   );
