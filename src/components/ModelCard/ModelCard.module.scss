@@ -1,8 +1,13 @@
 @use "/src/scss/index.scss" as *;
 
+.card {
+  max-width: 450px;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
 .modelBox {
   background-color: $color-accent-darker;
-  border-radius: 15px 15px 0 0;
   padding: 32px 40px 26px;
 
   &::after {
@@ -51,11 +56,15 @@
   font-size: $font-size-tiny;
 }
 
+.proseccoImg {
+  top: 3px;
+  left: 17px;
+}
+
 .stepsBox {
   background-color: $color-accent-brighter;
   padding-block: 50px;
   padding-inline: 40px;
-  border-radius: 0 0 15px 15px;
 }
 
 .stepsList {

@@ -1,0 +1,14 @@
+@use "/src/scss/index.scss" as *;
+
+.box {
+  gap: 100px;
+}
+
+.list {
+  gap: 20px;
+}
+
+.btn {
+  @extend %btn-accent;
+  padding-inline: 95px;
+}
