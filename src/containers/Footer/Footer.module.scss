@@ -1,0 +1,15 @@
+@use "/src/scss/index.scss" as *;
+
+.footer {
+  padding: 80px;
+  padding-top: 0;
+}
+
+.bg {
+  background-color: $bg-color-muted;
+}
+
+div.wrapper {
+  padding: 60px;
+  padding-top: 0;
+}

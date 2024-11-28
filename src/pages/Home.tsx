@@ -1,4 +1,5 @@
 import CooperationModels from "../containers/CooperationModels";
+import Footer from "../containers/Footer";
 import Hero from "../containers/Hero";
 import Introduction from "../containers/Introduction";
 import LatestBlogPosts from "../containers/LatestBlogPosts";
@@ -22,6 +23,7 @@ export default function Home() {
         <CooperationModels />
         <LatestBlogPosts />
       </main>
+      <Footer />
     </>
   );
 }

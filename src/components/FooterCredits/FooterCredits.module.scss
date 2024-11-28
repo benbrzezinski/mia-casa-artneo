@@ -1,0 +1,17 @@
+@use "/src/scss/index.scss" as *;
+
+.credits {
+  font-family: $font-family-secondary;
+  font-size: $font-size-tiny;
+  line-height: 1.6;
+  text-align: right;
+  color: #888888;
+  padding-right: 30px;
+}
+
+.copyright {
+  font-family: $font-family-secondary;
+  font-size: $font-size-tiny;
+  line-height: 1.6;
+  color: #c0c0c0;
+}

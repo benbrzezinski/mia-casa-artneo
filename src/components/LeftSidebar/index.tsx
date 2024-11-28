@@ -1,4 +1,4 @@
-import ItalianFlag from "../ItalianFlag";
+import ItalianSideLabel from "../ItalianSideLabel";
 import scss from "./LeftSidebar.module.scss";
 
 export default function LeftSidebar() {
@@ -6,13 +6,7 @@ export default function LeftSidebar() {
     <div
       className={`uk-flex uk-flex-column uk-flex-between uk-flex-middle uk-position-absolute ${scss.box}`}
     >
-      <div className="uk-flex uk-flex-column">
-        <ItalianFlag
-          direction="column"
-          childrenSize={{ width: 7, height: 19 }}
-        />
-        <p className={scss.text}>WŁOSKA AGENCJA NIERUCHOMOŚCI</p>
-      </div>
+      <ItalianSideLabel labelColor="#fff" />
       <ul className={`uk-flex uk-flex-column ${scss.list}`}>
         <li>
           <a href="#">

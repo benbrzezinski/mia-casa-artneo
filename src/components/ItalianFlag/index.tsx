@@ -6,12 +6,14 @@ interface ItalianFlagProps {
     width: number;
     height: number;
   };
+  middleChildColor?: string;
   style?: React.CSSProperties;
 }
 
 export default function ItalianFlag({
   direction,
   childrenSize,
+  middleChildColor,
   style,
 }: ItalianFlagProps) {
   return (
@@ -24,7 +26,11 @@ export default function ItalianFlag({
         className={scss.red}
       ></span>
       <span
-        style={{ width: childrenSize.width, height: childrenSize.height }}
+        style={{
+          width: childrenSize.width,
+          height: childrenSize.height,
+          backgroundColor: middleChildColor,
+        }}
         className={scss.white}
       ></span>
       <span

@@ -1,0 +1,16 @@
+@use "/src/scss/index.scss" as *;
+
+.nav {
+  padding-top: 26px;
+}
+
+.list {
+  color: $color-secondary;
+  gap: 30px;
+}
+
+.link {
+  font-weight: $font-weight-bold;
+  font-size: $font-size-large;
+  text-transform: uppercase;
+}
