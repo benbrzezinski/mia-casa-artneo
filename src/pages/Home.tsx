@@ -1,6 +1,7 @@
 import CooperationModels from "../containers/CooperationModels";
 import Hero from "../containers/Hero";
 import Introduction from "../containers/Introduction";
+import LatestBlogPosts from "../containers/LatestBlogPosts";
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
         ></div>
         <Introduction />
         <CooperationModels />
+        <LatestBlogPosts />
       </main>
     </>
   );

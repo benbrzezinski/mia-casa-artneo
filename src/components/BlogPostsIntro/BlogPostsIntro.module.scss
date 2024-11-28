@@ -1,0 +1,38 @@
+@use "/src/scss/index.scss" as *;
+
+.box {
+  margin-bottom: 100px;
+}
+
+.ornamentBox {
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+.ornamentText {
+  font-weight: $font-weight-bold;
+  font-size: $font-size-extra-small;
+  line-height: 2;
+  letter-spacing: 4px;
+  color: $color-accent-secondary;
+  text-transform: uppercase;
+}
+
+.section {
+  max-width: 750px;
+}
+
+.title {
+  font-size: 48px;
+  font-weight: $font-weight-bold;
+  line-height: $line-height-small;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  margin-bottom: 32px;
+}
+
+.text {
+  font-size: $font-size-medium;
+  color: $color-muted;
+  text-align: center;
+}
