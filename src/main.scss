@@ -29,6 +29,10 @@ ol {
   list-style-type: none;
 }
 
+button {
+  cursor: pointer;
+}
+
 %pseudo-border {
   content: "";
   position: absolute;
