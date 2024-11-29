@@ -12,3 +12,15 @@
   @extend %btn-accent;
   padding-inline: 95px;
 }
+
+.text {
+  max-width: 820px;
+  font-size: 23px;
+  font-weight: $font-weight-semi;
+  line-height: $line-height-medium;
+  text-align: center;
+
+  & .accent {
+    color: $color-accent-darker;
+  }
+}

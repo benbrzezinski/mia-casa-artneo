@@ -2,6 +2,7 @@
 
 div.wrapper {
   gap: 150px;
+  padding-top: 190px;
   padding-inline: 200px;
 
   @include max-width(1400px) {

@@ -20,7 +20,7 @@ export default function Home() {
           }}
         ></div>
         <Introduction />
-        <CooperationModels />
+        <CooperationModels elementBelow="button" />
         <LatestBlogPosts />
       </main>
       <Footer />

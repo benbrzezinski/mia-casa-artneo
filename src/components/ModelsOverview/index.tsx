@@ -28,7 +28,11 @@ const CARDS_DETAILS = [
   },
 ];
 
-export default function ModelsOverview() {
+interface ModelsOverviewProps {
+  elementBelow: "button" | "text";
+}
+
+export default function ModelsOverview({ elementBelow }: ModelsOverviewProps) {
   return (
     <div className={`uk-flex uk-flex-column uk-flex-middle ${scss.box}`}>
       <ul className={`uk-flex uk-flex-center uk-flex-wrap ${scss.list}`}>
@@ -46,9 +50,16 @@ export default function ModelsOverview() {
           )
         )}
       </ul>
-      <button type="button" className={scss.btn}>
-        DOWIEDZ SIĘ WIĘCEJ
-      </button>
+      {elementBelow === "button" ? (
+        <button type="button" className={scss.btn}>
+          DOWIEDZ SIĘ WIĘCEJ
+        </button>
+      ) : (
+        <p className={scss.text}>
+          Trzy podstawowe <span className={scss.accent}>modele współpracy</span>
+          , oparte są na kombinacji sześciu etapów prowadzących:
+        </p>
+      )}
     </div>
   );
 }

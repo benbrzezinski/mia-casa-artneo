@@ -2,11 +2,17 @@ import ModelsIntro from "../../components/ModelsIntro";
 import ModelsOverview from "../../components/ModelsOverview";
 import scss from "./CooperationModels.module.scss";
 
-export default function CooperationModels() {
+interface CooperationModelsProps {
+  elementBelow: "button" | "text";
+}
+
+export default function CooperationModels({
+  elementBelow,
+}: CooperationModelsProps) {
   return (
     <div className={`uk-container uk-container-large ${scss.wrapper}`}>
       <ModelsIntro />
-      <ModelsOverview />
+      <ModelsOverview elementBelow={elementBelow} />
     </div>
   );
 }
