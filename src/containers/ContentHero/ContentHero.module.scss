@@ -2,11 +2,9 @@
 
 .wrapper {
   min-height: 100dvh;
-  padding: 0 80px 100px;
+  padding-inline: 80px;
 }
 
 .box {
-  min-height: 80dvh;
-  background-color: $bg-color-muted;
   box-shadow: inset 0 0 0 50vw rgba(0, 0, 0, 0.4);
 }

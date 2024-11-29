@@ -2,6 +2,18 @@
 
 .box {
   background-color: $color-secondary;
+  border-left: 1px solid $color-border;
+  border-bottom: 1px solid $color-border;
+
+  &::after {
+    content: "";
+    position: absolute;
+    bottom: -1px;
+    right: -80px;
+    width: 80px;
+    height: 1px;
+    background-color: $color-border;
+  }
 }
 
 header.header {
@@ -16,4 +28,19 @@ header.header {
 .link {
   font-weight: $font-weight-bold;
   font-size: $font-size-large;
+
+  &.active {
+    &::after {
+      content: "";
+      position: absolute;
+      bottom: -20px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 150%;
+      height: 5px;
+      background-color: $color-accent-darker;
+      border-radius: 5px;
+      pointer-events: none;
+    }
+  }
 }

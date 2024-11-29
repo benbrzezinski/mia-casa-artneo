@@ -1,0 +1,17 @@
+@use "/src/scss/index.scss" as *;
+
+.item {
+  width: 100%;
+  padding-inline: 30px;
+
+  &:not(:last-child) {
+    border-bottom: 1px solid #cecdcd;
+  }
+}
+
+.link {
+  font-size: $font-size-large;
+  font-weight: $font-weight-bold;
+  line-height: 3;
+  padding: 0;
+}

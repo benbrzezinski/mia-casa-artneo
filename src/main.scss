@@ -1,3 +1,4 @@
+@use "/src/scss/index.scss" as *;
 @import url("https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,100..900&family=Work+Sans:wght@100..900&display=swap");
 
 $global-font-family: "Work Sans", serif;
@@ -42,8 +43,6 @@ button {
 }
 
 main {
-  $color-border: #cdcdcd;
-
   position: relative;
   padding: 190px 100px 0;
 
