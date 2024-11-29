@@ -1,0 +1,19 @@
+@use "/src/scss/index.scss" as *;
+
+.box {
+  background-color: $color-secondary;
+}
+
+header.header {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.list {
+  gap: 30px;
+}
+
+.link {
+  font-weight: $font-weight-bold;
+  font-size: $font-size-large;
+}
