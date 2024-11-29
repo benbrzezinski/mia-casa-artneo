@@ -9,22 +9,33 @@ export default function LeftSidebar() {
       <ItalianSideLabel labelColor="#fff" />
       <ul className={`uk-flex uk-flex-column ${scss.list}`}>
         <li>
-          <a href="#">
+          <a href="#" target="_blank" rel="noopener noreferrer nofollow">
             <img src="/assets/svgs/instagram.svg" alt="instagram" />
           </a>
         </li>
         <li>
-          <a href="#">
+          <a href="#" target="_blank" rel="noopener noreferrer nofollow">
             <img src="/assets/svgs/facebook.svg" alt="facebook" />
           </a>
         </li>
         <li>
-          <a href="#">
+          <a href="#" target="_blank" rel="noopener noreferrer nofollow">
             <img src="/assets/svgs/linkedin.svg" alt="linkedin" />
           </a>
         </li>
         <li>
-          <img src="/assets/svgs/arrow-down.svg" alt="arrow down" />
+          <button
+            type="button"
+            className={scss.btn}
+            onClick={() => {
+              window.scrollTo({
+                top: document.body.scrollHeight,
+                behavior: "smooth",
+              });
+            }}
+          >
+            <img src="/assets/svgs/arrow-down.svg" alt="arrow down" />
+          </button>
         </li>
       </ul>
     </div>

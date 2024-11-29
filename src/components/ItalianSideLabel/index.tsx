@@ -2,7 +2,7 @@ import ItalianFlag from "../ItalianFlag";
 import scss from "./ItalianSideLabel.module.scss";
 
 interface ItalianSideLabelProps {
-  labelColor: string;
+  labelColor?: string;
   middleChildColor?: string;
   style?: React.CSSProperties;
 }
