@@ -1,0 +1,8 @@
+@use "/src/scss/index.scss" as *;
+
+.border {
+  width: 81px;
+  top: 0;
+  left: 0;
+  border-right: 1px solid $color-border;
+}

@@ -6,19 +6,13 @@
 }
 
 div.wrapper {
+  width: 100%;
   box-sizing: border-box;
   padding-left: 81px;
 }
 
 .box {
   max-width: 612px;
-}
-
-.decoration {
-  width: 100%;
-  height: 20px;
-  background-color: $color-accent-darker;
-  margin-bottom: 60px;
 }
 
 .text {

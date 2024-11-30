@@ -1,3 +1,4 @@
+import DecorationBox from "../DecorationBox";
 import scss from "./ContentHeroInfoBox.module.scss";
 
 export default function ContentHeroInfoBox() {
@@ -5,7 +6,7 @@ export default function ContentHeroInfoBox() {
     <div className={scss.border}>
       <div className={`uk-container uk-container-large ${scss.wrapper}`}>
         <div className={scss.box}>
-          <div className={scss.decoration}></div>
+          <DecorationBox marginBottom={60} />
           <p className={scss.text}>
             Niezbędna jest znajomość języka, przepisów prawa, specyfiki
             lokalnego rynku, a także lokalnych zwyczajów. Nie inaczej jest we

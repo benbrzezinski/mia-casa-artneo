@@ -1,3 +1,6 @@
+import DecorationBorder from "../components/DecorationBorder";
+import LeftBorder from "../components/LeftBorder";
+import RightBorder from "../components/RightBorder";
 import CooperationModels from "../containers/CooperationModels";
 import Footer from "../containers/Footer";
 import Hero from "../containers/Hero";
@@ -9,19 +12,12 @@ export default function Home() {
     <>
       <Hero />
       <main>
-        <div
-          className="uk-position-absolute"
-          style={{
-            top: 0,
-            left: 160,
-            width: 1,
-            height: 734,
-            backgroundColor: "#cdcdcd",
-          }}
-        ></div>
         <Introduction />
         <CooperationModels elementBelow="button" />
         <LatestBlogPosts />
+        <DecorationBorder top={0} left={161} width={1} height={734} />
+        <LeftBorder height="98%" />
+        <RightBorder height="98%" />
       </main>
       <Footer />
     </>
