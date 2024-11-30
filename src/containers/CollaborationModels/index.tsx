@@ -1,14 +1,14 @@
 import ModelsIntro from "../../components/ModelsIntro";
 import ModelsOverview from "../../components/ModelsOverview";
-import scss from "./CooperationModels.module.scss";
+import scss from "./CollaborationModels.module.scss";
 
-interface CooperationModelsProps {
+interface CollaborationModelsProps {
   elementBelow: "button" | "text";
 }
 
-export default function CooperationModels({
+export default function CollaborationModels({
   elementBelow,
-}: CooperationModelsProps) {
+}: CollaborationModelsProps) {
   return (
     <div className={`uk-container uk-container-large ${scss.wrapper}`}>
       <ModelsIntro />

@@ -1,12 +1,12 @@
 import ContentHero from "../containers/ContentHero";
-import CooperationModels from "../containers/CooperationModels";
+import CollaborationModels from "../containers/CollaborationModels";
 
 export default function Offer() {
   return (
     <>
       <ContentHero />
       <main>
-        <CooperationModels elementBelow="text" />
+        <CollaborationModels elementBelow="text" />
       </main>
     </>
   );
