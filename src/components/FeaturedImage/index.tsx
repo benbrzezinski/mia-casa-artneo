@@ -3,7 +3,7 @@ import scss from "./FeaturedImage.module.scss";
 
 export default function FeaturedImage() {
   return (
-    <div className={`uk-position-relative ${scss.box}`}>
+    <div className="uk-position-relative">
       <div className={`uk-position-absolute ${scss.frame}`}>
         <div className={`uk-position-relative ${scss.snailsBox}`}>
           <img

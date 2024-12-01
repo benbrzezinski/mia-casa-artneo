@@ -2,9 +2,15 @@
 
 .box {
   gap: 120px;
+
+  @include max-width(1280px) {
+    gap: 60px;
+  }
 }
 
 .trulliBox {
+  height: fit-content;
+
   &::before {
     content: "";
     position: absolute;
@@ -18,6 +24,8 @@
 }
 
 .vineyardBox {
+  height: fit-content;
+
   &::before {
     content: "";
     position: absolute;

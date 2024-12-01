@@ -5,19 +5,40 @@ div.wrapper {
   padding-top: 190px;
   padding-inline: 200px;
 
+  @include max-width(1620px) {
+    gap: 100px;
+    padding-inline: 150px;
+  }
+
   @include max-width(1400px) {
-    gap: 75px;
+    padding-inline: 100px;
   }
 
-  @include max-width(1300px) {
-    padding-inline: 174px;
-  }
-
-  @include max-width(1200px) {
-    padding-inline: 156px;
+  @include max-width(1280px) {
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
   }
 }
 
-.box {
+div.boxOne {
+  gap: 350px;
+
+  @include max-width(1280px) {
+    width: 100%;
+    align-items: center;
+    gap: 150px;
+  }
+}
+
+div.boxTwo {
+  gap: 160px;
   padding-top: 240px;
+
+  @include max-width(1280px) {
+    width: 100%;
+    flex-direction: column-reverse;
+    align-items: center;
+    padding-top: 150px;
+  }
 }

@@ -1,9 +1,5 @@
 @use "/src/scss/index.scss" as *;
 
-.box {
-  margin-bottom: 160px;
-}
-
 .frame {
   top: 8%;
   left: -8%;
@@ -21,4 +17,16 @@
   top: 0;
   right: 0;
   transform: translate(58.7%, -52.3%);
+
+  @include max-width(1620px) {
+    max-width: 300px;
+  }
+
+  @include max-width(1400px) {
+    max-width: 220px;
+  }
+
+  @include max-width(1280px) {
+    max-width: 300px;
+  }
 }

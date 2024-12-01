@@ -7,13 +7,13 @@ import scss from "./Introduction.module.scss";
 export default function Introduction() {
   return (
     <div
-      className={`uk-container uk-container-large uk-flex uk-flex-center ${scss.wrapper}`}
+      className={`uk-container uk-container-large uk-flex uk-flex-between ${scss.wrapper}`}
     >
-      <div>
+      <div className={`uk-flex uk-flex-column ${scss.boxOne}`}>
         <AboutAgency />
         <ImageShowcase />
       </div>
-      <div className={scss.box}>
+      <div className={`uk-flex uk-flex-column ${scss.boxTwo}`}>
         <FeaturedImage />
         <ServicesOverview />
       </div>

@@ -2,23 +2,22 @@
 
 .section {
   max-width: 510px;
-  margin-bottom: 350px;
+  align-self: baseline;
 }
 
 .title {
-  font-size: clamp(1.5rem, 0.1154rem + 1.8462vw, 2.25rem);
+  font-size: $font-size-extra-large;
   font-weight: $font-weight-semi;
   line-height: $line-height-medium;
   margin-bottom: 35px;
 }
 
 .text {
-  font-size: clamp(0.75rem, 0.1731rem + 0.7692vw, 1.0625rem);
+  font-size: $font-size-medium;
   color: $color-muted;
   margin-bottom: 65px;
 }
 
 .btn {
   @extend %btn-accent;
-  font-size: clamp(0.75rem, 0.4038rem + 0.4615vw, 0.9375rem);
 }
