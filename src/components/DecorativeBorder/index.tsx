@@ -1,6 +1,6 @@
-import scss from "./DecorationBorder.module.scss";
+import scss from "./DecorativeBorder.module.scss";
 
-interface DecorationBorderProps {
+interface DecorativeBorderProps {
   top?: string | number;
   bottom?: string | number;
   left?: string | number;
@@ -8,13 +8,13 @@ interface DecorationBorderProps {
   height?: string | number;
 }
 
-export default function DecorationBorder({
+export default function DecorativeBorder({
   top,
   bottom,
   left,
   width,
   height,
-}: DecorationBorderProps) {
+}: DecorativeBorderProps) {
   return (
     <div
       className={`uk-position-absolute ${scss.border}`}

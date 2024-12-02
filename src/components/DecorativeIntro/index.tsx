@@ -1,19 +1,19 @@
-import DecorationBox from "../DecorationBox";
-import scss from "./ContentHeroInfoBox.module.scss";
+import DecorativeBox from "../DecorativeBox";
+import scss from "./DecorativeIntro.module.scss";
 
-interface ContentHeroInfoBoxProps {
+interface DecorativeIntroProps {
   includesText?: boolean;
   boxMarginBottom?: string | number;
 }
 
-export default function ContentHeroInfoBox({
+export default function DecorativeIntro({
   includesText = true,
   boxMarginBottom = 60,
-}: ContentHeroInfoBoxProps) {
+}: DecorativeIntroProps) {
   return (
     <div className={`uk-container uk-container-large ${scss.wrapper}`}>
       <div className={scss.box}>
-        <DecorationBox marginBottom={boxMarginBottom} />
+        <DecorativeBox marginBottom={boxMarginBottom} />
         {includesText && (
           <p className={scss.text}>
             Niezbędna jest znajomość języka, przepisów prawa, specyfiki
