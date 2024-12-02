@@ -24,18 +24,9 @@ export default function LeftSidebar() {
           </a>
         </li>
         <li>
-          <button
-            type="button"
-            className={scss.btn}
-            onClick={() => {
-              window.scrollTo({
-                top: document.body.scrollHeight,
-                behavior: "smooth",
-              });
-            }}
-          >
+          <a href="#blog">
             <img src="/assets/svgs/arrow-down.svg" alt="arrow down" />
-          </button>
+          </a>
         </li>
       </ul>
     </div>

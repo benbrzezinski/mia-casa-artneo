@@ -4,7 +4,10 @@ import scss from "./LatestBlogPosts.module.scss";
 
 export default function LatestBlogPosts() {
   return (
-    <div className={`uk-container uk-container-large ${scss.wrapper}`}>
+    <div
+      className={`uk-container uk-container-large ${scss.wrapper}`}
+      id="blog"
+    >
       <BlogPostsIntro />
       <BlogPostsList />
     </div>

@@ -9,6 +9,11 @@ $global-color: #1b1c21;
 @import "/node_modules/uikit/src/scss/mixins-theme.scss";
 @import "/node_modules/uikit/src/scss/uikit-theme.scss";
 
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 50px;
+}
+
 *,
 ul,
 ol,
