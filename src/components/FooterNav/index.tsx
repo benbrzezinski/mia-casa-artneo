@@ -1,3 +1,4 @@
+import { Link } from "react-router";
 import scss from "./FooterNav.module.scss";
 
 export default function FooterNav() {
@@ -5,29 +6,32 @@ export default function FooterNav() {
     <nav className={scss.nav}>
       <ul className={`uk-flex ${scss.list}`}>
         <li>
-          <a href="#" className={`uk-link-reset ${scss.link}`}>
+          <Link to="/" className={`uk-link-reset ${scss.link}`}>
             Home
-          </a>
+          </Link>
         </li>
         <li>
-          <a href="#" className={`uk-link-reset ${scss.link}`}>
+          <Link to="/" className={`uk-link-reset ${scss.link}`}>
             O nas
-          </a>
+          </Link>
         </li>
         <li>
-          <a href="#" className={`uk-link-reset ${scss.link}`}>
+          <Link
+            to="/oferta/modele-wspolpracy"
+            className={`uk-link-reset ${scss.link}`}
+          >
             Oferta
-          </a>
+          </Link>
         </li>
         <li>
-          <a href="#" className={`uk-link-reset ${scss.link}`}>
+          <Link to="/" className={`uk-link-reset ${scss.link}`}>
             Opinie klientów
-          </a>
+          </Link>
         </li>
         <li>
-          <a href="#" className={`uk-link-reset ${scss.link}`}>
+          <Link to="/" className={`uk-link-reset ${scss.link}`}>
             Kontakt
-          </a>
+          </Link>
         </li>
       </ul>
     </nav>

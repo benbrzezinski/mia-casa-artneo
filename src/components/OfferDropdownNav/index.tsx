@@ -1,56 +1,69 @@
+import { NavLink } from "react-router";
 import scss from "./OfferDropdownNav.module.scss";
 
 export default function OfferDropdownNav() {
   return (
     <div className="uk-dropdown uk-padding-remove">
-      <ul className="uk-nav uk-dropdown-nav">
+      <ul>
         <li className={scss.item}>
-          <a
-            href="#"
-            className={`uk-link-reset uk-padding-remove ${scss.link}`}
+          <NavLink
+            to="/oferta/modele-wspolpracy"
+            className={({ isActive }) =>
+              isActive
+                ? `uk-link-reset uk-padding-remove ${scss.link} ${scss.active}`
+                : `uk-link-reset uk-padding-remove ${scss.link}`
+            }
           >
             Modele współpracy
-          </a>
+          </NavLink>
         </li>
         <li className={scss.item}>
-          <a
-            href="#"
-            className={`uk-link-reset uk-padding-remove ${scss.link}`}
+          <NavLink
+            to="/oferta/organizacja-wyjazdow"
+            className={({ isActive }) =>
+              isActive
+                ? `uk-link-reset uk-padding-remove ${scss.link} ${scss.active}`
+                : `uk-link-reset uk-padding-remove ${scss.link}`
+            }
           >
             Organizacja wyjazdów
-          </a>
+          </NavLink>
         </li>
         <li className={scss.item}>
-          <a
-            href="#"
-            className={`uk-link-reset uk-padding-remove ${scss.link}`}
+          <NavLink
+            to="/oferta/prosecco-hills"
+            className={({ isActive }) =>
+              isActive
+                ? `uk-link-reset uk-padding-remove ${scss.link} ${scss.active}`
+                : `uk-link-reset uk-padding-remove ${scss.link}`
+            }
           >
             Odkryj Prosecco Hills
-          </a>
+          </NavLink>
         </li>
         <li className={scss.item}>
-          <a
-            href="#"
+          <NavLink
+            to="/"
             className={`uk-link-reset uk-padding-remove ${scss.link}`}
           >
             Administrowanie i wynajem
-          </a>
+          </NavLink>
         </li>
         <li className={scss.item}>
-          <a
-            href="#"
+          <NavLink
+            to="/"
             className={`uk-link-reset uk-padding-remove ${scss.link}`}
           >
             Nasze nieruchomości
-          </a>
+          </NavLink>
         </li>
         <li className={scss.item}>
-          <a
-            href="#"
+          <NavLink
+            to="/"
             className={`uk-link-reset uk-padding-remove ${scss.link}`}
           >
             Case Studies
-          </a>
+          </NavLink>
         </li>
       </ul>
     </div>

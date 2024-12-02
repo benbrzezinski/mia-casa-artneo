@@ -1,9 +1,10 @@
+import { Link } from "react-router";
 import scss from "./FooterLogo.module.scss";
 
 export default function FooterLogo() {
   return (
     <div className={`uk-flex ${scss.box}`}>
-      <a href="#" className={`uk-position-relative ${scss.link}`}>
+      <Link to="/" className={`uk-position-relative ${scss.link}`}>
         <img
           loading="lazy"
           src="/assets/images/logo-white-215.png"
@@ -13,7 +14,7 @@ export default function FooterLogo() {
                   /assets/images/logo-white-430.png 430w,
                   /assets/images/logo-white-645.png 645w"
         />
-      </a>
+      </Link>
     </div>
   );
 }

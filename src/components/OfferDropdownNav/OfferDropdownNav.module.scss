@@ -9,9 +9,13 @@
   }
 }
 
-.link {
+a.link {
   font-size: $font-size-large;
   font-weight: $font-weight-bold;
   line-height: 3;
   padding: 0;
+
+  &.active {
+    color: $color-accent-darker !important;
+  }
 }

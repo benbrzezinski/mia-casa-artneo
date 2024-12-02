@@ -1,3 +1,4 @@
+import { Link } from "react-router";
 import scss from "./Header.module.scss";
 
 export default function Header() {
@@ -5,7 +6,7 @@ export default function Header() {
     <header
       className={`uk-container uk-container-large uk-flex uk-flex-between uk-flex-middle ${scss.header}`}
     >
-      <a href="#">
+      <Link to="/">
         <img
           src="/assets/images/logo-white-215.png"
           alt="białe logo 'La Mia Casa'"
@@ -14,38 +15,41 @@ export default function Header() {
                   /assets/images/logo-white-430.png 430w,
                   /assets/images/logo-white-645.png 645w"
         />
-      </a>
+      </Link>
       <nav>
         <ul className={`uk-flex ${scss.list}`}>
           <li>
-            <a href="#" className={`uk-link-reset ${scss.link}`}>
+            <Link to="/" className={`uk-link-reset ${scss.link}`}>
               Home
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="#" className={`uk-link-reset ${scss.link}`}>
+            <Link to="/" className={`uk-link-reset ${scss.link}`}>
               O nas
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="#" className={`uk-link-reset ${scss.link}`}>
+            <Link
+              to="/oferta/modele-wspolpracy"
+              className={`uk-link-reset ${scss.link}`}
+            >
               Oferta
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="#" className={`uk-link-reset ${scss.link}`}>
+            <Link to="/" className={`uk-link-reset ${scss.link}`}>
               Opinie klientów
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="#" className={`uk-link-reset ${scss.link}`}>
+            <Link to="/" className={`uk-link-reset ${scss.link}`}>
               Blog
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="#" className={`uk-link-reset ${scss.link}`}>
+            <Link to="/" className={`uk-link-reset ${scss.link}`}>
               Kontakt
-            </a>
+            </Link>
           </li>
         </ul>
       </nav>
