@@ -2,8 +2,8 @@
 
 div.wrapper {
   box-sizing: border-box;
-  gap: 82px;
-  padding: 100px;
+  gap: 70px;
+  padding: 100px 120px;
 
   @include max-width(1450px) {
     flex-direction: column;

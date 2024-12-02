@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <>
       <Hero />
-      <main>
+      <main style={{ paddingInline: 100 }}>
         <Introduction />
         <CollaborationModels elementBelow="button" />
         <LatestBlogPosts />

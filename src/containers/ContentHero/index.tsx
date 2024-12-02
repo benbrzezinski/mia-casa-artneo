@@ -1,5 +1,4 @@
 import ContentHeader from "../../components/ContentHeader";
-import ContentHeroInfoBox from "../../components/ContentHeroInfoBox";
 import ContentHeroTitles from "../../components/ContentHeroTitles";
 import ItalianSideLabel from "../../components/ItalianSideLabel";
 import scss from "./ContentHero.module.scss";
@@ -8,16 +7,12 @@ interface ContentHeroProps {
   bgImg: string;
   title: string;
   subtitle: string;
-  infoBoxIncludesText?: boolean;
-  boxMarginBottom?: string | number;
 }
 
 export default function ContentHero({
   bgImg,
   title,
   subtitle,
-  infoBoxIncludesText = true,
-  boxMarginBottom = 60,
 }: ContentHeroProps) {
   return (
     <div className={`uk-position-relative ${scss.wrapper}`}>
@@ -30,10 +25,6 @@ export default function ContentHero({
         <ContentHeader />
         <ContentHeroTitles title={title} subtitle={subtitle} />
       </div>
-      <ContentHeroInfoBox
-        includesText={infoBoxIncludesText}
-        boxMarginBottom={boxMarginBottom}
-      />
     </div>
   );
 }

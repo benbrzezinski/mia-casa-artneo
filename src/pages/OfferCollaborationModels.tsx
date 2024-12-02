@@ -4,6 +4,7 @@ import WorkflowSteps from "../containers/WorkflowSteps";
 import LeftBorder from "../components/LeftBorder";
 import RightBorder from "../components/RightBorder";
 import Footer from "../containers/Footer";
+import ContentHeroInfoBox from "../components/ContentHeroInfoBox";
 
 export default function OfferCollaborationModels() {
   return (
@@ -14,6 +15,7 @@ export default function OfferCollaborationModels() {
         subtitle="Zakup nieruchomości za granicą to proces wymagający gruntownego przygotowania."
       />
       <main>
+        <ContentHeroInfoBox />
         <CollaborationModels elementBelow="text" />
         <WorkflowSteps />
         <LeftBorder height="100%" />
