@@ -8,7 +8,11 @@ import Footer from "../containers/Footer";
 export default function Offer() {
   return (
     <>
-      <ContentHero />
+      <ContentHero
+        bgImg="/assets/images/summer.jpg"
+        title="Modele współpracy"
+        subtitle="Zakup nieruchomości za granicą to proces wymagający gruntownego przygotowania."
+      />
       <main>
         <CollaborationModels elementBelow="text" />
         <WorkflowSteps />
