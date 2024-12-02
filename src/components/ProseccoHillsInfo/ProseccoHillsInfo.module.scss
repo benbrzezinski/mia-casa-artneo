@@ -1,8 +1,9 @@
 @use "/src/scss/index.scss" as *;
 
 div.wrapper {
-  gap: 50px;
-  padding-inline: 100px;
+  box-sizing: border-box;
+  gap: 82px;
+  padding: 100px;
 
   @include max-width(1450px) {
     flex-direction: column;

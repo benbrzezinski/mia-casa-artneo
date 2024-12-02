@@ -8,12 +8,16 @@ interface ContentHeroProps {
   bgImg: string;
   title: string;
   subtitle: string;
+  infoBoxIncludesText?: boolean;
+  boxMarginBottom?: string | number;
 }
 
 export default function ContentHero({
   bgImg,
   title,
   subtitle,
+  infoBoxIncludesText = true,
+  boxMarginBottom = 60,
 }: ContentHeroProps) {
   return (
     <div className={`uk-position-relative ${scss.wrapper}`}>
@@ -26,7 +30,10 @@ export default function ContentHero({
         <ContentHeader />
         <ContentHeroTitles title={title} subtitle={subtitle} />
       </div>
-      <ContentHeroInfoBox />
+      <ContentHeroInfoBox
+        includesText={infoBoxIncludesText}
+        boxMarginBottom={boxMarginBottom}
+      />
     </div>
   );
 }

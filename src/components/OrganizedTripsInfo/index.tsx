@@ -3,7 +3,7 @@ import scss from "./OrganizedTripsInfo.module.scss";
 export default function OrganizedTripsInfo() {
   return (
     <div
-      className={`uk-container uk-container-large uk-flex uk-flex-between ${scss.wrapper}`}
+      className={`uk-container uk-container-large uk-flex uk-flex-center ${scss.wrapper}`}
     >
       <section className={scss.section}>
         <h3 className={scss.title}>
