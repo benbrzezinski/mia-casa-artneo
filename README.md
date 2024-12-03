@@ -2,7 +2,7 @@
 
 1. Zainstaluj zależności: `npm install`
 2. Uruchom aplikację w trybie deweloperskim: `npm run dev`
-3. Otwórz projekt w przeglądarce pod adresem `http://localhost`.
+3. Otwórz projekt w przeglądarce pod adresem `http://localhost:5173/`.
 
 ## Funkcjonalności
 
